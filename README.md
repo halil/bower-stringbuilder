@@ -27,7 +27,7 @@ bower update
 
 Simply include the scripts in your main HTML file, shown in the example below.
 
-### bower
+### html
 
 ```html
 <script src="/bower_components/stringbuilder/stringbuilder.js"></script>
