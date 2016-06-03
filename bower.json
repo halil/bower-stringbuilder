@@ -1,0 +1,21 @@
+{
+  "name": "stringbuilder",
+  "homepage": "https://github.com/hibrahimsafak/bower-stringbuilder",
+  "authors": [
+    "Halil İbrahim ŞAFAK <hibrahimsafak@gmail.com>"
+  ],
+  "description": "stringbuilder",
+  "main": "stringbuilder.js",
+  "keywords": [
+    "string",
+    "builder"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
