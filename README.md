@@ -1,6 +1,8 @@
 # StringBuilder
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/hibrahimsafak/bower-stringbuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Simple pure Javascript string builder library.
+
 ## Installing String Builder
 
 You can install this package locally either with `bower`.
@@ -35,6 +37,59 @@ or
 
 ```html
 <script src="/bower_components/stringbuilder/stringbuilder.min.js"></script>
+```
+
+### script
+
+```js
+var sb = new StringBuilder();
+
+sb.append("normal text ");
+
+sb.appendLine();
+
+sb.appendFormat("formatted text {0},{1}", "format 1", "format 2");
+
+console.log(sb.toString());
+
+/*
+console =>
+normal text
+formatted text format 1,format 2
+*/
+
+```
+
+## API Docs
+
+##### append method
+```js
+var sb = new StringBuilder();
+sb.append("text");
+```
+
+##### appendLine method
+```js
+var sb = new StringBuilder();
+sb.appendLine();
+```
+
+##### appendFormat method
+```js
+var sb = new StringBuilder();
+sb.appendFormat("text {0},{1}", "format 1", "format 2");
+```
+
+##### clear method
+```js
+var sb = new StringBuilder();
+sb.clear();
+```
+
+##### toString method
+```js
+var sb = new StringBuilder();
+sb.toString();
 ```
 
 ## Browser Support

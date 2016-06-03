@@ -4,11 +4,16 @@
   "authors": [
     "Halil İbrahim ŞAFAK <hibrahimsafak@gmail.com>"
   ],
-  "description": "stringbuilder",
+  "description": "Simple pure Javascript string builder library",
   "main": "stringbuilder.js",
   "keywords": [
+    "stringbuilder",
     "string",
-    "builder"
+    "builder",
+    "string-builder",
+    "string format",
+    "string builder",
+    "format"
   ],
   "license": "MIT",
   "ignore": [
